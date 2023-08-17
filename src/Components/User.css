@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.table{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sty{
+    height: 0.5px;
+    width: 100%;
+    border-width:0;
+    background-color:grey;
+}
+
+.selected{
+    background-color: rgb(184, 181, 181);
+}
